@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK YOUR TICKET  </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div id="menu-bar" class="fas fa-bars" onclick="showmenu()"></div>
+        <a href="" class="logo"><span>B</span>OOK<span>  Y</span>OUR    <SPAn>T</SPAn>ICKET</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallary">gallary</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icon">
+            <i class="fas fa-search" onclick="showbar()" id="search-btn"></i>
+            <i class="fas fa-user" onclick="showform()"></i>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-bar" placeholder="What you looking for...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <div class="login-form">
+        <i class="fas fa-times" id="form-close" onclick="hideform()"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remmember"> remember me</label>
+            <p>forget password? <a href="">click here</a></p>
+            <p>don't have acount? <a href="">sign up</a></p>
+        </form>
+    </div>
+    <!-------------------------------------------------------------------------------->
+    <!-------------------------------------------------------------------------------->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>BOOK YOUR TICKET MAKE TRAVEL EASY</h3>
+            <p>Discover New Places With Us, Adventure Awaits</p>
+            <a href="#" class="btn">Discover More</a>
+        </div>
+
+        <div class="controls">
+            <span class="video-btn blue" data-src="/New folder/en1.mp4"></span>
+            <span class="video-btn"data-src ="/New folder/en10.mp4"></span>
+            <span class="video-btn" data-src="/New folder/en4.mp4"></span>
+            <span class="video-btn" data-src="/New folder/pexels-mikhail-nilov-8345494.mp4"></span>
+        </div>
+        <div class="video-container">
+            <video src="/New folder/en1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>         
+    </section>
+
+    <!------------------------------------------------------------------------------------>
+    <!------------------------------------------------------------------------------------>
+
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            &nbsp;
+            &nbsp;
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="/New folder/enass.jpg" alt="">
+            </div>
+            <form action="">
+                <div class="inputdiv">
+                    <h3>where to go</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputdiv">
+                    <h3>how many</h3>
+                    <input type="text" placeholder="people number">
+                </div>
+                <div class="inputdiv">
+                    <h3>arrival</h3>
+                    <input type="text" placeholder="arriving time">
+                </div>
+                <div class="inputdiv">
+                    <h3>leaving</h3>
+                    <input type="text" placehold="leaving time">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+        </div>
+    </section>
+    <!------------------------------------------------------------------------------------>
+    <!------------------------------------------------------------------------------------>
+
+    <section class="packages" id="packages">
+
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="container">
+            <div class="box">
+                <img src="/New folder/p-1.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> korea</h3>
+                    <p>orea is a 750-mile-long (1,200-kilometer-long) peninsula located in the easternmost part of the Asian continent. Today, the country is split into South and North Korea, but in the minds of most of its citizens, it remains a single nation that cannot be divided</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$75.00 <span>$140.00</span></div>
+                    <a href="#" class="btn">check now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/New folder/p-2.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>egypt</h3>
+                    <p>Egypt, country located in the northeastern corner of Africa. Egypt's heartland, the Nile River valley and delta, was the home of one of the principal ...
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$95.00 <span>$120.00</span></div>
+                    <a href="#" class="btn">check now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/New folder/p-3.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> hawaii</h3>
+                    <p>Hawaii is a state in the Western United States, about 2,000 miles (3,200 km) from the U.S. mainland in the Pacific Ocean. It is the only U.S. state outside ...
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$88.00 <span>$130.00</span></div>
+                    <a href="#" class="btn">check now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/New folder/p-4.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> italy</h3>
+                    <p>Italy, country of south-central Europe, occupying a peninsula that juts deep into the Mediterranean Sea. Italy comprises some of the most varied and scenic ...
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$190.00</span></div>
+                    <a href="#" class="btn">check now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/New folder/p-5.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> japan</h3>
+                    <p>Japan, island country lying off the east coast of Asia. It consists of a great string of islands in a northeast-southwest arc that stretches for ...
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$80.00 <span>$180.00</span></div>
+                    <a href="#" class="btn">check now</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/New folder/p-6.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> india</h3>
+                    <p>India, officially the Republic of India (IAST: Bhārat Gaṇarājya), is a country in South Asia. It has been the second most populous country since at least ...
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">$100.00 <span>$200.00</span></div>
+                    <a href="#" class="btn">check now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------------------------------------------------------------>
+    <!------------------------------------------------------------------------------------>
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotel</h3>
+                <p>Located in Manado City a 5-minute walk from Teluk Manado Beach, Manado Quality Hotel offers a 24-hour front desk and rooms with free wired internet. Massage services are available.
+                    Air-conditioned rooms come with city views or partial sea views. Each comes fitted with a flat-screen cable TV, mini-bar and refrigerator. Free toiletries are provided.
+                    
+                    Manado Hotel Quality is located a 20-minute drive from Sam Ratulangi Airport. Bukit Kasih Spiritual Center is a 2-hour drive away.
+                    
+                    Ticketing and car rental services are available at the tour desk. Laundry, dry cleaning and ironing services are also offered. This hotel has meeting room facilities</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>Dining and drinks</h3>
+                <p>Our restaurants exhibit a range of Mediterranean, East Asian, Indian, Egyptian, and international cuisines. Breezes Lounge & Grill offers poolside dining, Sherlock Holmes Pub features an authentic English atmosphere, and OPIA Restaurant and Bar boasts panoramic views. Room service is available 24 hours a day.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>A BAR OVERLOOKING THE NILE WITH CIGARS & ITALIAN FARE</h3>
+                <p>Bar’Oro at this Cairo hotel offers the ultimate wine pairing and an unmatched  Nile River view from the terrace. The classic cocktail bar is intimate and elegant, creating an inviting setting for signature drinks, fine wines and Italian-inspired small plates. A walk-in humidor houses cigars, and special events are hosted throughout the week.
+
+                    Second Floor
+                    Light fare and cocktails selection
+                    Smoking Bar
+                    Smart Casual
+                    Live Jazz band</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>7 stars</h3>
+                <p>Best 7-star Hotels in the World</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>airport</h3>
+                <p>Linked to Cairo Airport Terminal 3 via a pedestrian bridge, Le Meridien Cairo Airport features a heated outdoor pool and a fitness center.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>sauna</h3>
+                <p>Saunas have been used for thousands of years and are still popular today. A sauna can help people to unwind and relax, and it may have other health benefits</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-------------------------------------------------------------------------------------->
+    <!-------------------------------------------------------------------------------------->
+
+    <section class="gallary" id="gallary">
+
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>a</span>
+            <span>r</span>
+            <span>y</span>
+          
+        </h1>
+
+        <div class="container">
+            <div class="box">
+                <img src="/New folder/1.jpg" alt="">
+                <div class="content">
+                    <h3>MOUNTAIN  PLACE</h3>
+                    <p>Woman With Blonde Hair at the Top of the Mountain Raising Her Hands</p>
+                    <a href="" class="btn">SHOW more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/New folder/2.jpg" alt="">
+                <div class="content">
+                    <h3>BEAUTIFULL PLACE</h3>
+                    <p>Girl, Cliff, Mountains, Blur, rear view, sitting, nature, rock</p>
+                    <a href="" class="btn">SHOW more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/New folder/4.jpg" alt="">
+                <div class="content">
+                    <h3>AMAZING PLACE</h3>
+                    <p>Venia New Capital Compound  ideal for those looking for fun and diversity from  shapes,</p>
+                    <a href="" class="btn">SHOW more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/New folder/5.jpg" alt="">
+                <div class="content">
+                    <h3>SUMMERING PLACE</h3>
+                    <p> Taj City Madinet Nasr New Cairo Compound in addition to the presence of many wonderful oases</p>
+                    <a href="" class="btn"> SHOW more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/New folder/6.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p>Mexican city has a picturesque coastal atmosphere that makes it a popular resortworld tourists, </p>
+                    <a href="" class="btn">SHOW more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/New folder/12.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p>Egypt is famous for safari tourism with its picturesque desert and mountainous areas of different colors and  </p>
+                    <a href="" class="btn">SHOW more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/New folder/10.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p>Hvar brings together a unique blend of lush Mediterranean nature, culture and a rich historical heritage. 
+
+                    </p>
+                    <a href="" class="btn">SHOW more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/New folder/8.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p>Beijing is the best destination to enjoy the Great Wall of China. The most famous sections of  </p>
+                    <a href="" class="btn">SHOW more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="/New folder/9.jpg" alt="">
+                <div class="content">
+                    <h3>amazing place</h3>
+                    <p>This Roman circus was used in gladiatorial competitions, where the emperors executed people by throwing them to the 
+
+                    </p>
+                    <a href="" class="btn">SHOW more</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--------------------------------------------------------------------------------------->
+    <!----------------------------------------------------------------------------------------->
+    
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+          
+        </h1>
+
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/New folder/images (1).jpeg" alt="">
+                        <h3>jack moe</h3>
+                        <p>Our customers have tasted their way through our menus and shared their thoughts on our inflight dining. Find out what they say about the quality, variety, flavours and service of our meals in these Emirates food reviews.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+             /**               <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/New folder/images (3).jpeg" alt="">
+                        <h3>Ahmed mo</h3>
+                        <p>We love to hear stories from our customers about how our talented and diverse team has helped them to enjoy a memorable journey. Learn about the service quality on Emirates through our customers’ experiences in these Emirates customer service reviews on TripAdvisor.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/New folder/images (2).jpeg" alt="">
+                        <h3>enas mohammed</h3>
+                        <p>Whether it’s the variety of movies or the choice of TV shows, get a better idea of your options with the Emirates inflight entertainment reviews on TripAdvisor. Or tell us what you loved to watch on your Emirates flight.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="/New folder/PRB-staff-headshot-Viresh-Desai-265x270.jpg" alt="">
+                        <h3>mohamed ali</h3>
+                        <p>Our First Class suite is a game changer, but you don’t have to take our word for it. Read these reviews of Emirates seats for every travel class and see what customers are saying about the legroom, space and comfort on board.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+   
+          
+             
+             
+        </div>
+    </div>
+    </section>
+    
+    <!----------------------------------------------------------------------------------------------------->
+    <!----------------------------------------------------------------------------------------------------->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+            
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="/New folder/plane.jpg" alt="">
+            </div>
+            <form action="">
+                <div class="inputbox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputbox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="message"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+    </section>
+  
+    <!------------------------------------------------------------------------------------------->
+    <!------------------------------------------------------------------------------------------->
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>Miss​ion
+                    Create value for our customers, employees, owners & stakeholders
+                
+Vision
+Deliver competitive customer service with true Egyptian spirit
+
+Objectives
+Customer Focus, Both internal/external.
+Profitability, Favorable relation between revenues / costs.
+Staff Professionalism, Increase staff motivation /professionalism.
+
+
+Group Values
+-Safety Comes First
+-Efficiency
+-Teamwork
+-Continues Learning
+-Serving the Egyptian Community
+-Sustainable innovation
+
+                </p>
+            </div>
+            <div class="box">
+                <h3>barnch</h3>
+                <a href="#">egypt</a>
+                <a href="#">london</a>
+                <a href="#">korea</a>
+                <a href="#">japan</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">gallary</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+        </div>
+        <h1 class="created">created by <span>Asmaa Mohammed</span> all right reserved</h1>
+    </section>
+
+
+
+
+
+
+   <script src="sector.js"></script>
+</body>
+</html>
+
